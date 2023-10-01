@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+    <TextView
+        android:id="@+id/TtituloResultado"
+        android:layout_width="235dp"
+        android:layout_height="63dp"
+        android:text="@string/Titulo_Resultado"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <TextView
+        android:id="@+id/notafinal"
+        android:layout_width="186dp"
+        android:layout_height="75dp"
+        android:text="@string/Nota_final"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/Resultadofinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Titulo_Calculo"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <TextView
+        android:id="@+id/CalculoFinal"
+        android:layout_width="202dp"
+        android:layout_height="70dp"
+        android:text="@string/Resultado_min"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Var_nota"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="497dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Practica1_NelsonAcosta</string>
+    <string name="Titulo_Calculo">Calculo de Notas</string>
+    <string name="Casilla_Parcial">Examen Parcial</string>
+    <string name="Casilla_Promedio">Promedio</string>
+    <string name="Boton_Calcular">Calcular</string>
+    <string name="Encima_ParciaL">Examen Parcial</string>
+    <string name="Encima_FinaL">Examen Final</string>
+    <string name="Titulo_Resultado">Resultado</string>
+    <string name="Nota_final">La nota final es:</string>
+    <string name="Resultado_min">Resultado</string>
+    <string name="Var_nota">Var_nota</string>
+    <string name="Encima_Promedio">Promedio de educación permanente (PEP)</string>
+</resources>
